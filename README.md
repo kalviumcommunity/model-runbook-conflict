@@ -80,12 +80,4 @@ Submit one PDF for this question, with four task headings and labelled genuine s
 
 Only explicit task work is graded. Give partial credit within criteria, with no duplicate deductions or automatic whole-question zero. No presentation, identity, repository-name, metadata or screenshot-count marks. Equivalent correct commands and ordinary OS/path/hash differences accepted. Exact required file content and branch direction remain technical requirements. No second reviewer or self-approval required.
 
-## Rubric
 
-| Task | Explicit criteria | Marks |
-|---|---|---:|
-| 1 | Clean main plus branch/history inspection (2); both contributor contents and policy shown (2); differing line and correct policy outcome identified (2) | 6 |
-| 2 | Integration branch and both merge attempts (2); actual conflict/status/markers captured (2); correct escalation and both additions preserved, no markers (4); completed merge/history and clean tree (2) | 10 |
-| 3 | Successful integration push (2); open PR into main with useful title/direction (2); description covers conflict, policy, preserved additions and actual checks (3) | 7 |
-| 4 | Actual policy-based self-review comment (2); PR merged into main using merge commit (2); local main pulled with correct content/clean tree (2); correct explanation (1) | 7 |
-| **Total** | | **30** |
