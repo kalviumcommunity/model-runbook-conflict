@@ -12,13 +12,13 @@ This is a text-only Git task. No application programming required. Starter main 
 
 Use Git Bash or Bash with Git on macOS/Linux, free GitHub account and a text editor. Sign in, configure Git author name/email and test push authentication before tasks. Do not expose tokens/passwords. No partner, paid tools or cloud services required. GitHub website is sufficient; GitHub CLI output is an accepted optional equivalent for real PR evidence.
 
-Create your own repository with the template link below, then clone YOUR repository and enter its folder. Wait until starter files appear on GitHub before cloning. Do not push to shared instructor starter. Resolve authentication/setup problems before starting. Preparation is not graded. Instructor private reference repositories are not student forks or peer-reviewed production projects.
+Create your own repository using the fork instructions below, then clone YOUR repository and enter its folder. Wait until starter files appear on GitHub before cloning. Do not push to shared instructor starter. Resolve authentication/setup problems before starting. Preparation is not graded. Instructor private reference repositories are not student forks or peer-reviewed production projects.
 
 ## Starter and setup
 
 https://github.com/kalviumcommunity/model-runbook-conflict
 
-Select **Use this template > Create a new repository**, choose your own account and public visibility, and enable **Include all branches**. This is essential: starter has `main`, `contributor/checks` and `contributor/escalation`. After cloning your copy, run `git branch -r` and confirm `origin/contributor/checks` and `origin/contributor/escalation` are present. If either is missing, recreate preparation copy with all branches before tasks. Start on main with clean working tree. Do not change starter branch contents before merging.
+Select **Fork > Create a new fork**, choose your own account, and UNCHECK **Copy the main branch only**. Use a fork, not Use this template: fork preserves shared branch history needed for this conflict. Forking is guided preparation, not an assessed new command. Starter has `main`, `contributor/checks` and `contributor/escalation`. After cloning your fork, run `git branch -r` and confirm `origin/contributor/checks` and `origin/contributor/escalation` are present. If either is missing, ask instructor to fix preparation before tasks. Start on main with clean working tree. Do not change starter branch contents before merging.
 
 Files: `runbook.txt`, `POLICY.md` and this README. No installations or other project files needed. Do not edit POLICY.md or README.md.
 
@@ -63,7 +63,7 @@ Evidence: integration branch, merges, actual conflict and marker content, correc
 3. Use a useful title. In description include: conflicting escalation line, policy-based resolution, both preserved additions and checks performed (final file matches policy; conflict markers removed; working tree clean).
 4. Capture PR title, description, branch direction and OPEN state before merging.
 
-Evidence: push and open PR with requested details. Do not open PR against instructor repository.
+Evidence: push and open PR with requested details. GitHub may suggest instructor repository as PR base because this is a fork. Change base repository to YOUR fork and base branch to main. Do not open PR against instructor repository.
 
 ## Task 4: Review and finish
 
