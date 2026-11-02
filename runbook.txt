@@ -1,2 +1,3 @@
 Support runbook
-Escalation: contact team inbox.
+Escalation: contact duty engineer.
+Before escalation: record the error message.
